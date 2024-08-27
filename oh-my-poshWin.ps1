@@ -24,6 +24,9 @@ if ($in -eq 'Y' -or $in -eq 'y') {
         Write-Host "Die Profil-Datei existiert bereits."
     }
 
+    # Install terminal icons
+    Install-Module -Name Terminal-Icons -Repository PSGallery
+
     Write-Host $line
     Write-Host "Installation finished!" -ForegroundColor Green  
     Write-Host $line

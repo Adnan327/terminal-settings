@@ -1,4 +1,4 @@
-# Install
+# Installation
 
 1. Install the font
 2. Install oh-my-posh
@@ -10,16 +10,18 @@
 
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
-# Oh-my-posh
+# Oh-my-posh and Terminal icons
 
+**Windows**
+
+```powershell
+irm https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshWin.ps1 | iex
 ```
 
-```
+**Linux**
 
-# Icon-design
-
-```
-
+```bash
+curl https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshLin.sh | bash
 ```
 
 # Profile settings
