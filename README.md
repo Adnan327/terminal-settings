@@ -26,7 +26,7 @@ curl https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-pos
 
 # Profile settings
 
-Copy and paste these settings into this file: .\Documents\PowerShell\Microsoft.PowerShell_profile.ps1'
+Copy and paste these settings into this file: $home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1'
 
 ```powershell
 # load prompt theme
