@@ -1,32 +1,26 @@
 # Installation
 
 1. Install the font
-2. Install oh-my-posh
-3. Install icon design
-4. Copy and paste profile settings
-5. Copy and paste terminal settings
+2. Install oh-my-posh and icon design
+3. Copy and paste Powershell-Pofile settings
+4. Copy and paste Windows-Terminal ettings
 
 # Font
 
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
-# Oh-my-posh and Terminal icons
+1. Download and extract the font
+2. Select all files, right click and click install
 
-**Windows**
+# Oh-my-posh and Terminal icons
 
 ```powershell
 irm https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshWin.ps1 | iex
 ```
 
-**Linux**
+# Powershell - Profile settings
 
-```bash
-curl https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshLin.sh | bash
-```
-
-# Profile settings
-
-Copy and paste these settings into this file: $home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1'
+Copy and paste these settings into this file: `$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
 
 ```powershell
 # load prompt theme
@@ -36,7 +30,7 @@ oh-my-posh init pwsh --config 'C:\Users\adnan\AppData\Local\Programs\oh-my-posh\
 Import-Module -Name Terminal-Icons
 ```
 
-# Terminal Settings
+# Windows - Terminal Settings
 
 ```json
 {
