@@ -3,7 +3,7 @@
 1. Install the font
 2. Install oh-my-posh and icon design
 3. Copy and paste Powershell-Pofile settings
-4. Copy and paste Windows-Terminal ettings
+4. Copy and paste Windows-Terminal settings
 
 # Font
 
