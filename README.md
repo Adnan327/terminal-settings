@@ -18,9 +18,9 @@
 irm https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshWin.ps1 | iex
 ```
 
-# Powershell - Profile settings
+# Powershell-Profile settings
 
-Copy and paste these settings into this file: `$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+Copy and paste these settings into `$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
 
 ```powershell
 # load prompt theme
@@ -30,7 +30,7 @@ oh-my-posh init pwsh --config 'C:\Users\adnan\AppData\Local\Programs\oh-my-posh\
 Import-Module -Name Terminal-Icons
 ```
 
-# Windows - Terminal Settings
+# Windows-Terminal Settings
 
 ```json
 {
