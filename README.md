@@ -12,13 +12,13 @@
 1. Download and extract the font
 2. Select all files, right click and click install
 
-# Oh-my-posh and Terminal icons
+# Oh-my-posh And Terminal Icons
 
 ```powershell
 irm https://raw.githubusercontent.com/Adnan327/terminal-settings/main/oh-my-poshWin.ps1 | iex
 ```
 
-# Powershell-Profile settings
+# Powershell-Profile Settings
 
 Copy and paste these settings into `$home\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
 
